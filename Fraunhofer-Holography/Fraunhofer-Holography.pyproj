@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2ef44e3b-cd8d-423f-a8c7-529649795d51</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>GerchbergSaxton.py</StartupFile>
+    <StartupFile>WyrowskiBryngdahl.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Fienup.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="GerchbergSaxton.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DRY_Holography.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WyrowskiBryngdahl.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
